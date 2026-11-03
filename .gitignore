@@ -1,0 +1,27 @@
+# User-supplied information and generated session data
+CAREER_CONTEXT.md
+INTERVIEW_CONTEXT.md
+current-answer.json
+answer-bank.json
+monitor-control.json
+monitor-status.json
+manual-question.json
+manual-result.json
+captures/
+settings.json
+*.log
+*.tmp
+
+# Credentials and local development files
+.env
+.env.*
+*.pem
+*.key
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+Thumbs.db
+
+# Local development helper; not part of the distributable application
+_prepare_ui.py
